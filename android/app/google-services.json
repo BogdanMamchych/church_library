@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658165539872",
+    "project_id": "pavlyshchurchlibrary",
+    "storage_bucket": "pavlyshchurchlibrary.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658165539872:android:d3fcf821070ba763bb0845",
+        "android_client_info": {
+          "package_name": "com.example.church_library"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMuBYkGvek71sAommOWI2IbFEvVNmYfw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
