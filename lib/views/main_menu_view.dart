@@ -1,3 +1,4 @@
+import 'package:church_library/common/styles/text_styles.dart';
 import 'package:church_library/views/reading_view.dart';
 import 'package:flutter/material.dart';
 import '../mocks/book_list_mock.dart';
@@ -12,7 +13,7 @@ class MainMenuView extends StatelessWidget {
         toolbarHeight: 120,
         centerTitle: true,
         title: const Text('Церковна Бібліотека',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white)),
+            style: TextStyles.appBarTitleStyle),
         flexibleSpace: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
@@ -40,7 +41,7 @@ class MainMenuView extends StatelessWidget {
                   clipBehavior: Clip.antiAlias,
                   child: InkWell(
                     onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => ReadingView(bookName: book.title,)));
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => ReadingView(book: book,)));
                     },
                     borderRadius: BorderRadius.circular(4),
                     child: Center(

@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   cloud_firestore:
   firebase_core:  
+  scrollable_positioned_list: ^0.3.8
 
 dev_dependencies:
   flutter_test:
